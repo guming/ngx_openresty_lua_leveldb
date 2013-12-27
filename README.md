@@ -1,9 +1,9 @@
 ngx_openresty_lua_leveldb
 =========================
 
- -ngx_openresty_lua_leveldb
- -leveldb.lua   put into the path: your openresty/lualib/resty/
- -test.lua     nginx 调用
+ - ngx_openresty_lua_leveldb
+ - leveldb.lua   put into the path: your openresty/lualib/resty/
+ - test.lua     nginx 调用
  
  -location /leveldb {
  -           default_type 'application/json';
