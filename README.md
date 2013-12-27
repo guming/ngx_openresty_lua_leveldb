@@ -6,7 +6,7 @@ ngx_openresty_lua_leveldb
  - test.lua     nginx 调用
  
  -location /leveldb {
- -           default_type 'application/json';
- -           content_by_lua_file conf/lua/test.lua;
- -           lua_code_cache on;
+ -default_type 'application/json';
+ -content_by_lua_file conf/lua/test.lua;
+ -lua_code_cache on;
  -}
