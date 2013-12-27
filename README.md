@@ -10,3 +10,6 @@ ngx_openresty_lua_leveldb
  -content_by_lua_file conf/lua/test.lua;
  -lua_code_cache on;
  -}
+ - leveldb version 1.15.0
+ - cd leveldb/include/leveldb/
+ - gcc -P -E c.h 生成lua type def  
